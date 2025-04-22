@@ -1,17 +1,11 @@
-//
-//  autoclickerApp.swift
-//  autoclicker
-//
-//  Created by Donghyun Kim on 4/22/25.
-//
-
 import SwiftUI
 
 @main
-struct autoclickerApp: App {
+struct AutoClickerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(width: 300, height: 150)
         }
     }
 }
